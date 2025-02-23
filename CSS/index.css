@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dee2f7;
+}
+.All .container .header h1{
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+.All .container .input {
+    border-width: 2px 0px;
+    border-style: dotted;
+}
+.All .container .input .title span{
+    background: linear-gradient(to right, #433ca5, #49b5b3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Righteous", cursive;
+}
+.All .container .input .title .first{
+    color: #433ca5;
+}
+.All .container .input .title .second{
+    color: #49b5b3;
+}
+.All .container .input .form .submit{
+    background-color: #3b2dd1;
+    width: 9rem;
+}
+.All .container .input .form .submit:hover{
+    background-color: #3e5dba;
+}
+.valid {
+    border-color: green;
+}  
+.invalid {
+    border-color: red;
+}
